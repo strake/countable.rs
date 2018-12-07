@@ -1,0 +1,10 @@
+[package]
+name = "countable"
+version = "0.1.0"
+authors = ["M Farkas-Dyck <strake888@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+either = { version = "1.5", default-features = false }
+itertools = { version = "0.7.11", default-features = false }
+void = { version = "1", default-features = false }
